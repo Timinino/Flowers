@@ -14,7 +14,7 @@ body{
 
 .flowerContainer{
     width: 25dvw;
-    height: 20dvw;
+    height: 15dvw;
     margin: auto;
     background-image: url(heartchocolate.png);
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body{
 }
 
 .flowerContainer:hover img{
-    transform: translateX(-10dvw) translateY(-8dvw) rotate(-15deg);
+    transform: translateX(-10dvw) translateY(-8dvw) rotate(-30deg);
     transition: .2s all;
 }
 
@@ -37,7 +37,7 @@ img{
     width: 100%;
     height: 100%;
     transition: .2s all;
-    transform: translate(-5dvw, -5dvw);
+    transform: translate(-6dvw, -5dvw) rotate(-20deg);
 }
 
 p{
@@ -124,9 +124,12 @@ h1 {
     
     img{
         position: relative;
-        width: 70%;
+        margin-left: -10dvw;
+        margin-top: -15dvw;
+        width: 80%;
         height: 70%;
         transition: .2s all;
+        transform: rotate(-10deg);
     }
 
     .heart {
